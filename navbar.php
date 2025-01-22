@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="">Beranda</a>
-    <a href="">Buku</a>
+    <a href="/UAS_TeukuRahmadYuliansyah/index.php">Beranda</a>
+    <a href="/UAS_TeukuRahmadYuliansyah/buku/index.php">Buku</a>
     <a href="">Kategori</a>
     <hr>
 </body>
