@@ -8,7 +8,7 @@
 <body>
     <a href="/UAS_TeukuRahmadYuliansyah/index.php">Beranda</a>
     <a href="/UAS_TeukuRahmadYuliansyah/buku/index.php">Buku</a>
-    <a href="">Kategori</a>
+    <a href="/UAS_TeukuRahmadYuliansyah/Kategori/index.php">Kategori</a>
     <hr>
 </body>
 </html>
