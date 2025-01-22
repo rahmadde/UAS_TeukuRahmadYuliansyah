@@ -13,7 +13,7 @@
         Form Kategori
     </h1>
     <hr>
-    <form action="">
+    <form action="proses.php" method="post">
         <table>
             <tr>
                 <td>
