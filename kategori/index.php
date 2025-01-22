@@ -40,7 +40,11 @@
             <td>
                 <?= $data['nama_kategori'] ?>
             </td>
-            <th></th>
+            <th>
+                <a href='hapus.php?hapus=<?= $data['id_kategori'] ?>' onclick="return confirm('Yakin ingin menghapus data ini?')">
+                    <button type="submit">Hapus</button>
+                </a>
+            </th>
         </tr>
         <?php
             }
