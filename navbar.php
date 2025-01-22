@@ -9,6 +9,7 @@
     <a href="/UAS_TeukuRahmadYuliansyah/index.php">Beranda</a>
     <a href="/UAS_TeukuRahmadYuliansyah/buku/index.php">Buku</a>
     <a href="/UAS_TeukuRahmadYuliansyah/Kategori/index.php">Kategori</a>
+    <a href="/UAS_TeukuRahmadYuliansyah/logout.php">Log Out</a>
     <hr>
 </body>
 </html>

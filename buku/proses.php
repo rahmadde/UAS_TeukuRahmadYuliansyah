@@ -9,5 +9,5 @@
 
     $proses = mysqli_query($koneksi, $simpan);
 
-    header("location:index.php")
+    header("location:index.php");
 ?>
