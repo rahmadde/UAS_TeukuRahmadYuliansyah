@@ -41,6 +41,9 @@
                 <?= $data['nama_kategori'] ?>
             </td>
             <th>
+                <a href="edit.php?id=<?= $data['id_kategori'] ?>">
+                    <button type="submit">Edit</button>
+                </a>
                 <a href='hapus.php?hapus=<?= $data['id_kategori'] ?>' onclick="return confirm('Yakin ingin menghapus data ini?')">
                     <button type="submit">Hapus</button>
                 </a>
