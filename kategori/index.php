@@ -22,11 +22,29 @@
             <th>Nama Kategori</th>
             <th>Action</th>
         </tr>
+        <?php
+            include("../koneksi.php");
+
+            $tampil = "SELECT * FROM kategoris";
+
+            $proses = mysqli_query($koneksi, $tampil);
+
+            $nomor = 1;
+
+            foreach($proses as $data){
+        ?>
         <tr>
-            <th></th>
-            <td></td>
+            <th>
+                <?= $nomor++ ?>
+            </th>
+            <td>
+                <?= $data['nama_kategori'] ?>
+            </td>
             <th></th>
         </tr>
+        <?php
+            }
+        ?>
     </table>
 </body>
 </html>
