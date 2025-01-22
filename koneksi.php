@@ -2,7 +2,7 @@
     $host = "localhost";
     $username = "root";
     $password = "";
-    $databse = "perpustakaan";
+    $database = "perpustakaan";
 
-    $koneksi = mysqli_connect($host, $username, $password, $databse);
+    $koneksi = mysqli_connect($host, $username, $password, $database);
 ?>
