@@ -9,5 +9,6 @@
     <a href="">Beranda</a>
     <a href="">Buku</a>
     <a href="">Kategori</a>
+    <hr>
 </body>
 </html>
